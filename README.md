@@ -9,5 +9,7 @@ Là phiên bản tích hợp giữa board Arduino UNO và module GSM SIM800
 
 - Change define board UNO or MEGA as : GSM.h
 
-#define UNO
+#define UNO 
 //#define MEGA
+- With define is UNO: use SoftwareSerial with pin D10, D11
+- With define is MEGA: use HardwareSerial with Serial 1 pin 18, 19
