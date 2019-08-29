@@ -7,9 +7,9 @@ and it is modified to preserve the compability
 with the Arduino's product.
 
 The library is modified to use the GSM Shield,
-developed by www.open-electronics.org
-(http://www.open-electronics.org/arduino-gsm-shield/)
-and based on SIM900 chip,
+developed by www.ahtlab.com
+(https://ahtlab.com/san-pham/kit-arduino-uno-gsm-sim800a/)
+and based on SIM800 chip,
 with the same commands of Arduino Shield,
 based on QuectelM10 chip.
 */
