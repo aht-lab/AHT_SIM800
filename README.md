@@ -1,4 +1,4 @@
-GSM/GPRS & GPS Shield Library for modules using SIM800/SIM900
+GSM/GPRS & GPS Library for modules using SIM800/SIM900
 ======
 
 For informations and support:
