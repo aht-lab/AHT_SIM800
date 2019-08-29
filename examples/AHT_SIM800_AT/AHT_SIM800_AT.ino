@@ -35,6 +35,13 @@ void setup()
      if (gsm.begin(9600))
           Serial.println("\nstatus=READY");
      else Serial.println("\nstatus=IDLE");
+     
+     Serial.println("--------------------------------"); 
+     Serial.println("  Test ATCommand with Terminal  "); 
+     Serial.println("AT -> OK");
+     Serial.println("AT+CSQ -> Check GSM signal");
+     Serial.println("ATDxxx; -> Call number xxx");
+     
 };
 
 void loop()
