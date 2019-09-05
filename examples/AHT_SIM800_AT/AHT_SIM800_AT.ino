@@ -38,9 +38,9 @@ void setup()
      
      Serial.println("--------------------------------"); 
      Serial.println("  Test ATCommand with Terminal  "); 
-     Serial.println("AT -> OK");
-     Serial.println("AT+CSQ -> Check GSM signal");
-     Serial.println("ATDxxx; -> Call number xxx");
+     Serial.println("sent AT -> check respone OK");
+     Serial.println("sent AT+CSQ -> Check GSM signal");
+     Serial.println("sent ATDxxx; -> Call number xxx");
      
 };
 
