@@ -8,8 +8,6 @@ int _GSM_RXPIN_ = 10;
 #include "sms.h"
 #include "call.h"
 
-//To change pins for Software Serial, use the two lines in GSM.cpp.
-
 //GSM Shield for Arduino
 //https://ahtlab.com/san-pham/kit-arduino-uno-gsm-sim800a/
 //this code is based on the example of Arduino Labs.
