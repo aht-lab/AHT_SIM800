@@ -52,7 +52,7 @@ void setup()
           //Read until serial buffer is empty.
           gsm.WhileSimpleRead();
 
-          body = inet.httpGET("acomcorp.vn", 80, "/Erl/report?idmain=868440032731530&cs=250&cc=256&ct=53"); // change URL get serve 
+          body = inet.httpGET("api.ahtlab.com", 80, "/sim800"); // change URL get serve 
           //Print the results.
           Serial.println("\n---respone serve-----");
           Serial.println("\n---------------------");
