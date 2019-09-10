@@ -13,7 +13,6 @@ int _GSM_RXPIN_ = 10;
 #include "sms.h"
 SMSGSM sms;
 
-//To change pins for Software Serial, use the two lines in GSM.cpp.
 
 //GSM Shield for Arduino
 //https://ahtlab.com/san-pham/kit-arduino-uno-gsm-sim800a/
@@ -41,8 +40,8 @@ void setup()
 
      if(started) {
           //Enable this two lines if you want to send an SMS.
-          //if (sms.SendSMS("+84941732379", "AHTLAB UNO SIM800 - TEST SENT SMS"))
-          //Serial.println("\nSMS sent OK");
+          if (sms.SendSMS("+84941732379", "AHTLAB UNO SIM800 - TEST SENT SMS"))
+          Serial.println("\nSMS sent OK");
      }
 
 };
